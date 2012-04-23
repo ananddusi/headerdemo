@@ -27,7 +27,7 @@ public class HeaderdemoActivity extends Activity {
         TextView columnHeader1 = (TextView) columnHeadersView.findViewById(R.id.column_header1);
         TextView columnHeader2 = (TextView) columnHeadersView.findViewById(R.id.column_header2);
         
-        columnHeader1.setText("Date");
+        columnHeader1.setText("Sequence");
         columnHeader2.setText("Precipitation (inches)");
         
         ListView view = (ListView) findViewById(R.id.listview);
