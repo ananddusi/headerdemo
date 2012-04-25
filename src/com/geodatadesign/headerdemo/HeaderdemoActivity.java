@@ -17,15 +17,15 @@ public class HeaderdemoActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        View descriptionHeader = findViewById(R.id.listheader_description);
-        TextView description1 = (TextView) descriptionHeader.findViewById(id.header_line1);
-        TextView description2 = (TextView) descriptionHeader.findViewById(id.header_line2);
+        //View descriptionHeader = findViewById(R.id.listheader_description);
+        TextView description1 = (TextView) findViewById(id.header_line1);
+        TextView description2 = (TextView) findViewById(id.header_line2);
         description1.setText("This is the first line describing the list");
         description2.setText("Another description in the header");
         
-        View columnHeadersView = findViewById(R.id.listheader_columns);
-        TextView columnHeader1 = (TextView) columnHeadersView.findViewById(R.id.column_header1);
-        TextView columnHeader2 = (TextView) columnHeadersView.findViewById(R.id.column_header2);
+        //View columnHeadersView = findViewById(R.id.listheader_columns);
+        TextView columnHeader1 = (TextView) findViewById(R.id.column_header1);
+        TextView columnHeader2 = (TextView) findViewById(R.id.column_header2);
         
         columnHeader1.setText("Sequence");
         columnHeader2.setText("Precipitation (inches)");

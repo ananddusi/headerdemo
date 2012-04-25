@@ -5,7 +5,7 @@
     android:orientation="vertical"
     >
     
-    <LinearLayout android:id="@+id/listheader_description"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -23,7 +23,7 @@
             />
     </LinearLayout>
     
-    <LinearLayout android:id="@+id/listheader_columns"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
