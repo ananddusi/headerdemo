@@ -34,5 +34,4 @@ public class HeaderdemoActivity extends Activity {
               
         view.setAdapter(adapter);
     }
-
 }
